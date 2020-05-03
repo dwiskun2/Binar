@@ -1,0 +1,24 @@
+TUGAS: bikin API pakai ExpressJS/nodeJS
+
+1. Buat file 'cities.txt', isinya sebagai berikut 
+[
+{city:'Oslo', country:'Norway'},
+{city:'Los Angeles', country:'USA'},
+{city:'Riyadh', country:'Saudi Arabia'},
+{city:'Seoul', country:'South Korea'},
+{city:'Kuala Lumpur', country:'Malaysia'},
+{city:'Yogyakarta', country:'Indonesia'},
+{city:'Lima', country:'Peru'},
+] 
+2. bikin routing get('/cities',...) untuk menampilkan semua list kota&negara yang ada di 'cities.txt' 
+3. bikin routing get('/city', ...) untuk menampilkan salah satu kota&negara secara acak 
+4. bikin app.js seperti biasa, listen di port 3000 atau 8080 
+referensi : https://www.codementor.io/@wapjude/creating-a-simple-rest-api-with-expressjs-in-5min-bbtmk51mq 
+
+
+ app.js, cities.txt, package.json, package-lock.json 
+node_module di exclude dari repo 
+
+tambahkan di .gitignore 
+
+deadline: Senin, 3 Mei 2020, 11:00 WIB 
